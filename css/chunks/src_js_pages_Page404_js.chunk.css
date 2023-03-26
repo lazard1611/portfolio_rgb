@@ -1,0 +1,112 @@
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/_not_found.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.not_found {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.not_found_link {
+  transition: color 0.3s ease;
+  will-change: color;
+}
+
+.not_found {
+  width: 100%;
+  background: var(--primary_dark_color);
+  overflow-x: hidden;
+}
+@media screen and (min-width: 768px) {
+  .not_found {
+    padding: calc(var(--height-header) + var(--gl-indent)) var(--gl-indent) var(--gl-indent);
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .not_found {
+    padding: var(--gl-indent);
+    height: calc(var(--full-screen) - var(--height-header) - var(--height-cookie-mob));
+  }
+  .body--mobile_cookie .not_found {
+    height: calc(var(--full-screen) - var(--height-header));
+  }
+}
+
+.not_found_title {
+  line-height: 1;
+  font-family: "Biotif", sans-serif;
+  letter-spacing: 0.04em;
+}
+@media screen and (min-width: 768px) {
+  .not_found_title {
+    font-size: 19rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .not_found_title {
+    font-size: 10rem;
+  }
+}
+.not_found_title:not(:last-child) {
+  margin-bottom: -2rem;
+}
+.is_safari .not_found_title:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.not_found_title__char {
+  color: var(--white_color);
+}
+.not_found_title__char.not_found_title__char--color_1 {
+  color: var(--orange_color);
+}
+.not_found_title__char.not_found_title__char--color_2 {
+  color: var(--green_color);
+}
+.not_found_title__char.not_found_title__char--color_3 {
+  color: var(--primary_light_color);
+}
+
+.not_found_subtitle {
+  line-height: 1.5;
+  font-family: "Biotif", sans-serif;
+  color: var(--white_color);
+}
+@media screen and (min-width: 768px) {
+  .not_found_subtitle {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .not_found_subtitle {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .not_found_subtitle:not(:last-child) {
+    margin-bottom: 14.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .not_found_subtitle:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+
+.not_found_link {
+  font: 2rem/2.1 "Biotif", sans-serif;
+  color: var(--blue_color_2);
+}
+.not_found_link:hover {
+  text-decoration: none;
+  color: var(--orange_color);
+}
+.not_found_link:focus {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=src_js_pages_Page404_js.chunk.css.map*/

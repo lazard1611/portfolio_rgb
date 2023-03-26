@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="SinglePost">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Single Post</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="rgbcode">
+    <link rel="shortcut icon" href="./favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header header--color_mod">
+      <div class="header_in"><a class="header_logo" href="./index.html"><img class="header_logo__img header_logo__img--fill_1_state" src="./images/logo_light.svg" alt="rgbcode" loading="lazy"><img class="header_logo__img header_logo__img--fill_2_state" src="./images/logo_dark.svg" alt="rgbcode" loading="lazy"></a>
+        <div class="color_themes"><a class="color_themes__item color_themes__item--light_mod" href="#">
+            <div class="color_themes__icon">
+              <svg class="icon icon_sun icon--size_mod">
+                <use xlink:href="images/sprite/sprite.svg#sun"></use>
+              </svg>
+            </div></a><a class="color_themes__item color_themes__item--dark_mod" href="#">
+            <div class="color_themes__icon">
+              <svg class="icon icon_moon icon--size_mod">
+                <use xlink:href="images/sprite/sprite.svg#moon"></use>
+              </svg>
+            </div></a>
+        </div>
+        <button class="header_menu_trigger menuTrigger" type="button" aria-label="Show/hide menu"><span class="header_menu_trigger__title">menu</span><span class="header_menu_trigger__icon header_menu_trigger__icon--open_mod">
+            <svg class="icon icon_menu icon--size_mod">
+              <use xlink:href="images/sprite/sprite.svg#menu"></use>
+            </svg></span><span class="header_menu_trigger__icon header_menu_trigger__icon--close_mod">
+            <svg class="icon icon_close icon--size_mod">
+              <use xlink:href="images/sprite/sprite.svg#close"></use>
+            </svg></span></button>
+      </div>
+    </header>
+    <nav class="menu">
+      <div class="menu_in">
+        <ul class="menu_list">
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon">
+                  <svg class="icon icon_bike icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#bike"></use>
+                  </svg></span><span class="menu_link__title">Showcases</span></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon menu_link__icon--offset_2_mod menu_link__icon--offset_3_mod">
+                  <svg class="icon icon_cup icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#cup"></use>
+                  </svg></span><span class="menu_link__title">Blog</span></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon menu_link__icon--offset_1_mod">
+                  <svg class="icon icon_faces icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#faces"></use>
+                  </svg></span><span class="menu_link__title">About us</span></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon menu_link__icon--offset_2_mod">
+                  <svg class="icon icon_list icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#list"></use>
+                  </svg></span><span class="menu_link__title">Services</span></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon menu_link__icon--offset_2_mod">
+                  <svg class="icon icon_at icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#at"></use>
+                  </svg></span><span class="menu_link__title">Contacts</span></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#"><span class="menu_link__icon menu_link__icon--offset_1_mod">
+                  <svg class="icon icon_cloud icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#cloud"></use>
+                  </svg></span><span class="menu_link__title">Schedule a call</span></a></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section post_hero">
+          <div class="section_in post_hero__in">
+            <div class="post_hero__cols">
+              <div class="post_hero__col"><a class="post_hero__back" href="#">
+                  <div class="post_hero__back_icon">
+                    <div class="post_hero__back_icon_in">
+                      <svg class="icon icon_arrow_left icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_left"></use>
+                      </svg>
+                    </div>
+                  </div>blog</a>
+                <div class="post_hero__info">
+                  <div class="post_hero__info_item"><a class="post_hero__info_link" href="#">lifehack</a><a class="post_hero__info_link" href="#">development</a>
+                  </div>
+                  <div class="post_hero__info_item">
+                    <div class="post_hero__info_date">12 July ’20</div>
+                  </div>
+                </div>
+                <h1 class="post_hero__title">10 best drag and drop WordPress page builders compared</h1>
+                <div class="post_hero__author">
+                  <picture class="post_hero__author_pic">
+                    <source srcset="images/blog_avatar.jpg" type="image/jpg"><img class="post_hero__author_img" src="images/blog_avatar.jpg" loading="lazy">
+                  </picture>
+                  <div class="pos_hero__author_name">Kate Henderson</div>
+                </div>
+                <div class="post_hero__bottom">Developer A, knowledge of WordPress. Wrote the abs plugin, fixes bugs in the version of WP 2.5, WP 2.7</div>
+              </div>
+              <div class="post_hero__col">
+                <div class="post_hero__image">
+                  <picture class="post_hero__image_pic">
+                    <source srcset="images/post_hero.jpg" type="image/jpg"><img class="post_hero__image_img" src="images/post_hero.jpg" loading="lazy">
+                  </picture>
+                  <div class="post_hero__image_decor post_hero__image_decor--v1"></div>
+                  <div class="post_hero__image_decor post_hero__image_decor--v2"></div>
+                  <div class="post_hero__image_decor post_hero__image_decor--v3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section post_content">
+          <div class="section_in">
+            <div class="post_content__block postSection">
+              <div class="post_content__sidebar">
+                <div class="post_content__sidebar_list postSidebar">
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor1">Why do you need it</a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor1a">How to easily create a separate page for blog posts in WordPress.</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor1b">Setup WordPress to Create a Separate Blog Page</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor1c">Properties</a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor2">Tools</a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor3">Manual checks</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor4">Continuous Live Monitoring</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor5">Monitoring During Build Time</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor6">Improvement</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor7">Benchmarks </a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor8">More ideas</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor9">Continuous Live Monitoring</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor10">Monitoring During Build Time</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h3 class="post_content__sidebar_title"><a class="post_content__sidebar_link" href="#acnhor11">Improvement</a></h3>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor12">Score 100/100</a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor13">Summary </a></h2>
+                  </div>
+                  <div class="post_content__sidebar_item">
+                    <h2 class="post_content__sidebar_title post_content__sidebar_title--important_mod"><a class="post_content__sidebar_link" href="#acnhor14">One More Thing</a></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="post_content__article">
+                <h2 id="acnhor1">Why do you need it</h2>
+                <h3 id="acnhor1a">1. How to easily create a separate page for blog posts in WordPress.</h3>
+                <p>WordPress allows you to easily configure your website to have a custom home page. This feature also allows you to choose any other page on your website to be used as your blog page.</p>
+                <p>First, you need to create two pages in WordPress that you would like to use as your homepage and blog page. This box should contain the title of your post. You can use any phrase, words, or characters. (Avoid using the same title on more than one page.) You can use commas, apostrophes, quotes, hyphens/dashes, and other typical symbols in the post like “My Site – Here’s Lookin’ at You, Kid.” WordPress will then clean it up to generate a user-friendly and name of the post (also called the “post slug”) to create the permalink for the post. And the github code: <code>register_post_type ( $variable, $idea, $callback ).</code> You can see more <a href="#">here</a>. </p>
+                <figure><img src="images/post_1.jpg" alt="">
+                  <figcaption>Example of the code</figcaption>
+                </figure>
+                <h3 id="acnhor1b">2. Setup WordPress to Create a Separate Blog Page</h3>
+                <p>Permalink stands for “permanent link.” That means a post URL that does not expose the post ID which could be subject to a change (e.g. when moving to different blogging system), but it rather contains a user-friendly post name derived from the post title which could also change,  although not recommended, but in a more controllable way. This post name (also referred to as “post slug” or just “slug”) can be edited, depending on your Permalinks settings, using the “Edit” button. </p>
+                <figure><img src="images/post_2.jpg" alt="">
+                  <figcaption>Workflow of our WordPress Developer</figcaption>
+                </figure>
+                <h2 id="acnhor1c">Properties</h2>
+                <p>The following section contains a complete list of standard properties belonging to the latest CSS3 specifications. All the properties are listed alphabetically.</p>
+                <table>
+                  <tr>
+                    <th>property</th>
+                    <th>description</th>
+                    <th>frequency</th>
+                  </tr>
+                  <tr>
+                    <td>align-content</td>
+                    <td>Specifies the alignment of flexible container’s items within the flex container.</td>
+                    <td>60%</td>
+                  </tr>
+                  <tr>
+                    <td>animation</td>
+                    <td>Specifies the keyframe-based animations.</td>
+                    <td>35%</td>
+                  </tr>
+                  <tr>
+                    <td>background</td>
+                    <td>Specifies the alignment of flexible container’s items within the flex container.</td>
+                    <td>40%</td>
+                  </tr>
+                  <tr>
+                    <td>position</td>
+                    <td>Specifies the keyframe-based animations.</td>
+                    <td>20%</td>
+                  </tr>
+                </table>
+                <p>With Quicktag buttons that insert HTML tags, you can for example click i to insert the opening &lt;em&gt; tag, type the text to be enclosed, and click /i or Close Tags to insert the closing tag. However, you can eliminate the need for this ‘close’ step by changing your workflow a bit: type your text, select the portion to be emphasized.</p>
+                <blockquote>Do you want to create a separate page for blog posts in WordPress? we will show you how to easily create a separate page for blog posts in WordPress.</blockquote>
+                <p>You can use any phrase, words, or characters. (Avoid using the same title on more than one page.) You can use commas, apostrophes, quotes, hyphens/dashes, and other typical symbols in the post like “My Site – Here’s Lookin’ at You, Kid.” WordPress will then clean it up to generate a user-friendly and URL-valid name of the post (also called the “post slug”) to create the permalink for the post. </p>
+                <h2 id="acnhor2">Tools</h2>
+                <h3 id="acnhor3">Manual checks</h3>
+                <h3 id="acnhor4">Continuous Live Monitoring</h3>
+                <h3 id="acnhor5">Monitoring During Build Time</h3>
+                <h3 id="acnhor6">Improvement</h3>
+                <h2 id="acnhor7">Benchmarks</h2>
+                <h3 id="acnhor8">More ideas</h3>
+                <h3 id="acnhor9">Continuous Live Monitoring</h3>
+                <h3 id="acnhor10">Monitoring During Build Time</h3>
+                <h3 id="acnhor11">Improvement</h3>
+                <h2 id="acnhor12">Score 100/100</h2>
+                <h2 id="acnhor13">Summary</h2>
+                <h2 id="acnhor14">One More Thing</h2>
+                <div class="post_content__form">
+                  <div class="subscription_form">
+                    <div class="subscription_form__title">
+                      <h6>Don’t miss our pieces! Subscribe to our blog</h6>
+                    </div>
+                    <form class="subscription_form__in subscriptionForm" action="#" method="POST">
+                      <ul class="subscription_form__checkboxes">
+                        <li class="subscription_form__checkbox">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element" type="checkbox" name="subs_checkbox_0" checked><span class="form_checkbox__label">News and updates about WordPress, <br/> React and everything in between</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="subscription_form__checkbox">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element" type="checkbox" name="subs_checkbox_1" checked><span class="form_checkbox__label">Security risks and developers recommendations</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="subscription_form__checkbox">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element" type="checkbox" name="subs_checkbox_2"><span class="form_checkbox__label">New tools and plugin updates</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="subscription_form__checkbox">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element" type="checkbox" name="subs_checkbox_3" checked><span class="form_checkbox__label">RGBCODE’s progress, news, and heart to heart</span>
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="subscription_form__field subscriptionFormField">
+                        <div class="subscription_form__input">
+                          <div class="form_input">
+                            <div class="form_input__field">
+                              <input class="form_input__element subscriptionFormInput" type="email" placeholder="Your E-mail*" name="subs_email_1" required title="email input">
+                            </div>
+                          </div>
+                          <button class="subscription_form__input_btn subscriptionFormSubmit" type="submit" aria-label="Subscribe">
+                            <svg class="icon icon_right_angle_arrow icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="subscription_form__agreement">
+                        <p>By clicking the button below, I agree with <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>.</p>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="subscription_success subscriptionSuccess">
+                    <div class="subscription_success__in">
+                      <div class="subscription_success__icon">
+                        <svg class="icon icon_paperplane icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#paperplane"></use>
+                        </svg>
+                      </div>
+                      <div class="subscription_success__title"><span>Thank you!</span></div>
+                      <div class="subscription_success__descr">
+                        <p>Your form has been submitted</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>Permalink stands for “permanent link.” That means a post URL that does not expose the post ID which could be subject to a change (e.g. when moving to different blogging system), but it rather contains a user-friendly post name derived from the post title which could also change, although not recommended, but in a more controllable way. This post name (also referred to as “post slug” or just “slug”) can be edited, depending on your Permalinks settings, using the “Edit” button. </p>
+              </div>
+              <div class="post_content__social_col">
+                <div class="post_content__social postSocials">
+                  <div class="post_content__social_item"><a class="post_content__social_link post_content__social_link--link" href="#">
+                      <div class="post_content__social_icon">
+                        <svg class="icon icon_link icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#link"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="post_content__social_item"><a class="post_content__social_link post_content__social_link--twitter" href="#">
+                      <div class="post_content__social_icon">
+                        <svg class="icon icon_twitter icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#twitter"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="post_content__social_item"><a class="post_content__social_link post_content__social_link--facebook" href="#">
+                      <div class="post_content__social_icon">
+                        <svg class="icon icon_facebook icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="post_content__social_item"><a class="post_content__social_link post_content__social_link--whatsapp" href="#">
+                      <div class="post_content__social_icon">
+                        <svg class="icon icon_whatsapp icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#whatsapp"></use>
+                        </svg>
+                      </div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section latest_articles">
+          <div class="section_in">
+            <div class="latest_articles__head">
+              <h3 class="latest_articles__title">Read also</h3>
+              <div class="latest_articles__navigation">
+                <button class="latest_articles__arrow latest_articles__arrow--prev" type="button" aria-label="Previous slide"><span class="latest_articles__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg></span></button>
+                <button class="latest_articles__arrow latest_articles__arrow--next" type="button" aria-label="Next slide"><span class="latest_articles__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg></span></button>
+              </div>
+            </div>
+            <div class="latest_articles__slider latestArticlesSlider">
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <picture class="latest_articles_slide_image__wrap">
+                    <source srcset="images/latest_articles/01.jpg" type="image/jpg"><img class="latest_articles_slide_image__in" src="images/latest_articles/01.jpg" alt="Dog with laptop" loading="lazy">
+                  </picture></a>
+                <div class="latest_articles_slide__info"><a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development<span class="latest_articles_slide__count"> +2</span></a>
+                  <div class="latest_articles_slide__item">12 July ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h4 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h4></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <picture class="latest_articles_slide_image__wrap">
+                    <source srcset="images/latest_articles/02.jpg" type="image/jpg"><img class="latest_articles_slide_image__in" src="images/latest_articles/02.jpg" alt="Girl with laptop" loading="lazy">
+                  </picture></a>
+                <div class="latest_articles_slide__info"><a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development</a>
+                  <div class="latest_articles_slide__item">10 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h4 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h4></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <picture class="latest_articles_slide_image__wrap">
+                    <source srcset="images/latest_articles/03.jpg" type="image/jpg"><img class="latest_articles_slide_image__in" src="images/latest_articles/03.jpg" alt="Girl with laptop" loading="lazy">
+                  </picture></a>
+                <div class="latest_articles_slide__info"><a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development</a>
+                  <div class="latest_articles_slide__item">10 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h4 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h4></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <picture class="latest_articles_slide_image__wrap">
+                    <source srcset="images/latest_articles/04.jpg" type="image/jpg"><img class="latest_articles_slide_image__in" src="images/latest_articles/04.jpg" alt="Girl with laptop" loading="lazy">
+                  </picture></a>
+                <div class="latest_articles_slide__info"><a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development</a>
+                  <div class="latest_articles_slide__item">10 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h4 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h4></a>
+              </article>
+            </div>
+            <div class="latest_articles_bottom">
+              <div class="latest_articles_bottom__value latestArticlesCurrent">01</div>
+              <div class="latest_articles_bottom__progress latestArticlesProgress"></div>
+              <div class="latest_articles_bottom__value latestArticlesTotal">04</div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__in">
+          <div class="footer__row_top">
+            <div class="footer__col">
+              <div class="footer__lists_w">
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Projects</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">About</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Services</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Team</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Blog</a>
+                  </li>
+                </ul>
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Terms of use</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Privacy Policy</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Contact us</a>
+                  </li>
+                </ul>
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="mailto:business@rgbcode.com">business@rgbcode.com</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Facebook</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Linkedin</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__content_w">
+                <h4 class="footer__title">Let’s talk about your project</h4>
+                <div class="footer__btn_w">
+                  <div class="footer__btn_wrap buttonToOpenCalendly">
+                    <button class="footer__btn" type="button"><span class="footer__btn_title">Request a call</span><span class="footer__btn_icon">
+                        <svg class="icon icon_arrow_right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                        </svg></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__row_bottom">
+            <div class="footer__col">
+              <div class="footer__company_info_w">
+                <div class="footer__company_info">© 2020 RGBCODE, LTD</div>
+                <div class="footer__company_info">21 Hertzel, Tel Aviv, Israel</div>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__content_w">
+                <div class="footer__build_on">built with<span class="footer__icon_w">
+                    <svg class="icon icon_heart icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                    </svg></span>on wordpress</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

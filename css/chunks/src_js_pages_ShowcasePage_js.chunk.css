@@ -1,0 +1,455 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/_tools.scss ***!
+  \**********************************************************************************************************************************************************************************/
+.tools_image__in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tools_progress__bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.tools_image__name {
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+
+.tools {
+  background-color: var(--light_blue);
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .tools {
+    padding: 11.5rem 13rem 18rem var(--gl-indent);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .tools {
+    padding: 8rem var(--gl-indent) 10rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tools {
+    padding: 5.4rem var(--gl-indent) 6.5rem;
+  }
+}
+
+.tools__title {
+  color: var(--primary_color);
+  font-weight: 600;
+}
+@media screen and (min-width: 1024px) {
+  .tools__title {
+    font-size: 4.8rem;
+  }
+  .tools__title:not(:last-child) {
+    margin-bottom: 3.9rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .tools__title {
+    font-size: 4rem;
+  }
+  .tools__title:not(:last-child) {
+    margin-bottom: 3.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tools__title {
+    font-size: 1.8rem;
+  }
+  .tools__title:not(:last-child) {
+    margin-bottom: 2.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tools__slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  .tools__slider:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  .tools__slider .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tools__slider.swiper {
+    overflow: visible;
+  }
+  .tools__slider:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+
+.tools__slide {
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (min-width: 1024px) {
+  .tools__slide {
+    flex: 0 1 33.333%;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .tools__slide {
+    flex: 0 1 50%;
+  }
+}
+
+.tools__slide:hover .tools_image__name,
+.tools__slide:focus .tools_image__name {
+  opacity: 1;
+}
+
+.tools_image {
+  padding-bottom: 100%;
+}
+
+.tools_image__name {
+  position: absolute;
+  top: -0.1rem;
+  left: -0.1rem;
+  z-index: 1;
+  width: calc(100% + 0.2rem);
+  height: calc(100% + 0.2rem);
+  padding: 2rem;
+  overflow-y: auto;
+  text-align: center;
+  background-color: rgba(14, 30, 69, 0.8);
+  color: var(--white_color);
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .tools_image__name {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .tools_image__name {
+    font-size: 1.4rem;
+    line-height: 1.35;
+  }
+}
+
+.tools_image__in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tools__descr {
+  max-width: 54rem;
+  color: var(--gray_color);
+}
+@media screen and (min-width: 1024px) {
+  .tools__descr {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .tools__descr {
+    font-size: 1.4rem;
+    line-height: 1.35;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tools_progress {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tools_progress {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  }
+  .tools_progress:not(:last-child) {
+    margin-bottom: 3.1rem;
+  }
+}
+
+.tools_progress__value {
+  color: var(--blue_color_2);
+  font-size: 1.3rem;
+}
+
+.tools_progress__bar {
+  margin: 0 1.2rem;
+  flex-grow: 1;
+  height: 0.2rem;
+  background-color: var(--border_grey_color);
+}
+.tools_progress__bar .swiper-pagination-progressbar-fill {
+  flex-grow: 1;
+  height: inherit;
+  transform-origin: left top;
+  background-color: var(--blue_color);
+}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/_case_description.scss ***!
+  \*********************************************************************************************************************************************************************************************/
+.case_description a {
+  transition: color 0.3s ease;
+  will-change: color;
+}
+
+@media screen and (min-width: 768px) {
+  .case__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: normal;
+    align-items: stretch;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .case__col {
+    flex: 0 1 50%;
+    max-width: 50%;
+  }
+}
+
+.case_description {
+  color: var(--primary_color);
+  font-weight: 300;
+}
+@media screen and (min-width: 1024px) {
+  .case_description {
+    padding: 11.5rem var(--gl-indent) 18rem 17.5rem;
+    font-size: 2rem;
+    line-height: 1.45;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .case_description {
+    padding: 8rem var(--gl-indent) 10rem;
+    font-size: 1.4rem;
+    line-height: 1.35;
+  }
+}
+@media screen and (max-width: 767px) {
+  .case_description {
+    padding: 5.4rem var(--gl-indent) 6.5rem;
+  }
+}
+.case_description h2 {
+  color: var(--primary_color);
+  font-weight: 600;
+}
+@media screen and (min-width: 1024px) {
+  .case_description h2 {
+    font-size: 4.8rem;
+  }
+  .case_description h2:not(:last-child) {
+    margin-bottom: 3.9rem;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .case_description h2 {
+    font-size: 4rem;
+  }
+  .case_description h2:not(:last-child) {
+    margin-bottom: 3.4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .case_description h2 {
+    font-size: 1.8rem;
+  }
+  .case_description h2:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+.case_description a {
+  color: var(--blue_color_2);
+}
+.case_description a:hover, .case_description a:focus {
+  text-decoration: none;
+  color: var(--orange_color);
+}
+.case_description ol {
+  counter-reset: fact;
+}
+@media screen and (min-width: 768px) {
+  .case_description ol {
+    max-width: 60.2rem;
+  }
+  .case_description ol:not(:last-child) {
+    margin-bottom: 14.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .case_description ol:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+.case_description ol li {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  border-top: 2px solid var(--light_blue_2);
+}
+.case_description ol li:last-child {
+  border-bottom: 2px solid var(--light_blue_2);
+}
+.case_description ol li::before {
+  counter-increment: fact;
+  content: counters(fact, "", decimal-leading-zero);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--light_blue);
+  font-family: "Jet Brains Mono", sans-serif;
+  color: var(--primary_color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .case_description ol li {
+    padding: 2.4rem 0 2.1rem 11.6rem;
+    min-height: 11rem;
+  }
+  .case_description ol li::before {
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .case_description ol li {
+    padding: 1.4rem 0 1.2rem 7rem;
+    min-height: 7rem;
+  }
+  .case_description ol li::before {
+    width: 4.8rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+  }
+}
+.case_description strong {
+  font-weight: 700;
+}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/_review_v2.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.review_logo__in, .review__stars_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.review {
+  margin-left: auto;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+.review:hover, .review:focus {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .review {
+    display: none;
+  }
+}
+
+.review__head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+.review__head:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.review__logo_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: var(--gray_color);
+}
+.review__logo_title:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+.review__stars {
+  width: 9.7rem;
+  height: 1.4rem;
+}
+
+.review__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-end;
+}
+
+.review_logo {
+  width: 8.5rem;
+  height: 2.4rem;
+}
+.review_logo:not(:last-child) {
+  margin-right: 3.3rem;
+}
+
+.review__amount {
+  color: var(--gray_color);
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=src_js_pages_ShowcasePage_js.chunk.css.map*/
